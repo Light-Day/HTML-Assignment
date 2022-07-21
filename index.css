@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+    padding: 10 px;
+    width: 50%;
+    background-color: rgb(228, 222, 215);
+}
+h1 {
+    text-align: center;
+}
+form div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 5px;
+}
+span {
+    background-color: rgb(62, 148, 219);
+    color: white;
+    border-radius: 4px;
+    padding: 3px 9px 3px 9px;
+  }
+  input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 182, 182);
+    padding: 2px;
+    background: transparent;
+    font-size: 20px;
+    
+  }
+  input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #5394da;
+  }
+.mobile,.email {
+  grid-column: 1 / span 2;
+}
+.checkbox-content {
+    display: flex;
+    gap: 20px;
+}
+
+.checkbox {
+    width: 15px;
+}
+
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+.btn {
+    gap: 20px;
+    color: white;
+    width: 50%;
+    height: 35px;
+    font-size: 17px;    
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.register-btn {
+    background-color: rgb(62, 148, 219);
+}
+.signin-btn {
+    background-color: rgb(121, 196, 107);
+}
